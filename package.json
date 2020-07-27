@@ -1,0 +1,35 @@
+{
+  "name": "Timer",
+  "version": "0.1.0",
+  "description": "Timer application build with Electron",
+  "author": {
+    "name": "nazip",
+    "email": ""
+  },
+  "repository": {},
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "bozon": "1.0.6",
+    "jest": "26.1.0",
+    "spectron": "11.1.0",
+    "webpack": "^4.44.0"
+  },
+  "build": {
+    "appId": "com.electron.timer",
+    "win": {
+      "publish": null
+    },
+    "mac": {
+      "publish": null,
+      "category": "your.app.category.type"
+    }
+  }
+}
